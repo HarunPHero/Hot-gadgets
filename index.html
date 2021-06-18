@@ -10,11 +10,78 @@
 </head>
 <body style="margin:0px;display: flex;flex-flow: row wrap;">
     <div><img style="margin-top:2%;margin-left: 1%;"src="hot-gadgets/logo.png" alt=""></div>
-    <a style="text-decoration: none;padding-top: 3%;padding-left: 30%;color: gray;font-family:'Lobster', cursive;"href="#">Home</a>
-      <a style="text-decoration: none;padding-top: 3%;padding-left: 3%;color: gray;font-family:'Lobster', cursive;"href="#">Products</a>
-      <a style="text-decoration: none;padding-top: 3%;padding-left: 3%;color: gray;font-family:'Lobster', cursive;"href="#">About us</a>
-      <a style="text-decoration: none;padding-top: 3%;padding-left: 3%;color: gray;font-family: 'Lobster', cursive;"href="#">Contact us </a>
+    <style>
+      
+    nav{
+        margin-left: 30%;
+        margin-top: 1%;
+        background-image:linear-gradient(rgb(52, 106, 255),rgb(142, 181, 255),rgb(25, 255, 224))  ;
+        height: 60px;
+        line-height: 10px;
+        border-radius: 5px;
 
+
+    }
+    nav li{
+        list-style: none;
+        padding:12px;
+       
+       
+    }
+    nav a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Lobster', cursive;
+    }
+    
+   
+    nav li:hover{
+      background-image:linear-gradient(rgb(52, 106, 255),rgb(142, 181, 255),rgb(25, 255, 224)) ;
+      border-radius: 10px;
+    }
+
+    nav > ul >li{
+      float: left;
+      
+    }
+    .dropdown{
+      display:none;
+      position: absolute;
+      background-image:linear-gradient(rgb(52, 106, 255),rgb(25, 255, 224));
+      margin-top:12px;
+      padding-left: 0;
+      border-radius: 10px;
+      font-family: 'Lobster', cursive;
+      }
+    nav > ul > li:hover > ul{
+      display: block;
+      
+    }
+     </style>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Products</a>
+        <ul class="dropdown">
+          <li><a target="_blank"href="https://www.daraz.com.bd/catalog/?spm=a2a0e.home.search.3.73524591YynMeX&q=smart%20phone&_keyori=ss&clickTrackInfo=textId--3566649723188814673__abId--217068__pvid--bec00606-777f-447e-a88b-d9c5c5088b13&from=suggest_normal&sugg=smart%20phone_2_1">Smartphone</a></li>
+          <li><a target="_blank"href="https://www.daraz.com.bd/catalog/?spm=a2a0e.searchlist.search.1.60836fabnwO0sO&q=laptop&_keyori=ss&clickTrackInfo=textId--8604400042594750176__abId--217068__pvid--2273e6ae-496d-4f31-9223-3c93b22d7fbf&from=suggest_normal&sugg=laptop_0_1">Laptop</a></li>
+          <li><a target="_blank"href="https://www.daraz.com.bd/catalog/?spm=a2a0e.searchlist.search.1.1d6074636UdIiG&q=desktop%20pc&_keyori=ss&clickTrackInfo=textId--6330179664343246461__abId--217068__pvid--31e895bf-68e4-4c60-bbb0-f564ed51444a&from=suggest_normal&sugg=desktop%20pc_0_1">Desktop</a></li>
+        </ul></li>
+        <li><a href="">Catagories</a>
+        <ul class="dropdown">
+          <li><a href=""></a>Shoe</li>
+          <li><a href=""></a>Bag</li>
+          <li><a href=""></a>Perfume</li>
+        </ul></li>
+        <li><a href="">Contact us</a>
+        <ul class="dropdown">
+          <li><a onclick="alert('Mobile Number:01739274454')"href="">Mobile</a></li>
+          <li><a target="_blank"href="https://mail.google.com/mail/u/0/?hl=en&view=cm&tf=1&fs=1&to=mamun73009%40gmail.com">Email</a></li>
+          <li><a target="_blank"href="https://www.facebook.com/harunur.rashid.9699">Facebook</a></li>
+          <li><a target="_blank"href="https://www.facebook.com/messages/t/100003616327774">Messenger</a></li>
+        </ul></li>
+      </ul>
+    </nav>
     
         <main>
             <section style="padding-bottom: 10%;" >
@@ -25,7 +92,7 @@
                 <p style="margin-left:7%;font-family: Arial, Helvetica, sans-serif;font-size: 100%;"> It has roots in a piece of classical Latin literature.</p>
                <br> 
               
-                <a target="_blank"style="background-image: linear-gradient(to bottom, #141414 0%, #5a5758 100%);color: #ffff;border: none;border-radius: 8px;padding: 9px 25px;text-decoration: none;margin-left:7%;font-family: Arial, Helvetica, sans-serif;font-weight: 700;"href="www.youtube.com">Buy Now →</a>
+                <a style="background-image: linear-gradient(to bottom, #141414 0%, #5a5758 100%);color: #ffff;border: none;border-radius: 8px;padding: 9px 25px;text-decoration: none;margin-left:7%;font-family: Arial, Helvetica, sans-serif;font-weight: 700;"href=""onclick="alert('Not For Sale😁😁😁')">Buy Now →</a>
         </div>
     </section>
     <div style="display: flex;">  <p style="margin-left:2%;font-family: 'Lobster', cursive;font-size: 250%;color:rgb(167, 167, 167);">Smartphone</p>
@@ -54,7 +121,7 @@
     color: #ffff;
     border: none;
     border-radius: 8px;
-    padding: 12px 25px;margin-left: 25%;font-weight: 700;margin-bottom: 5%;cursor: pointer;">Buy Now >></button>
+    padding: 12px 25px;margin-left: 25%;font-weight: 700;margin-bottom: 5%;cursor:pointer;">Buy Now >></button>
      </div>
 
      <div style="
@@ -206,13 +273,13 @@
      
         <img style="float:right;width:50%;margin-right: 0.5%;margin-top: 20%;"src="hot-gadgets/Categories/pale-order.png" alt="">
       
-      <div style="width: 30%;box-shadow:5px 5px 10px lightgrey;margin-left: 23%;margin-top: 12%;">
+      <div style="width: 25%;box-shadow:5px 5px 10px lightgrey;margin-left: 23%;margin-top: 12%;">
         <img style="padding-left: 25%;padding-top: 10%;text-align: center;"src="hot-gadgets/Categories/perfume.png" alt="">
       <h1 style="text-align:center;padding-bottom:10%;font-family: Arial, Helvetica, sans-serif;padding-left:25%;">Beauty</h1>
       
       </div>
       
-        <div style="width: 30%;box-shadow:5px 5px 10px lightgrey;margin-left: 2%;">
+        <div style="width: 25%;box-shadow:5px 5px 10px lightgrey;margin-left: 2%;">
             <img style="padding-left: 25%;padding-top: 10%;"src="hot-gadgets/Categories/bag.png" alt="">
           <h1 style="text-align:center;padding-bottom:10%;font-family: Arial, Helvetica, sans-serif;padding-left:25% ;">Bag</h1>
     
@@ -220,7 +287,7 @@
       
         
       
-        <div style="width: 30%;box-shadow:5px 5px 10px lightgrey;margin-left: 23%;">
+        <div style="width: 25%;box-shadow:5px 5px 10px lightgrey;margin-left: 23%;">
           <img style="padding-left: 25%;padding-top: 10%;"src="hot-gadgets/Categories/shoe.png" alt="">
         <h1 style="text-align:center;padding-bottom:10%;font-family: Arial, Helvetica, sans-serif;padding-left: 25%;">Shoes</h1>
         </div>
