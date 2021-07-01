@@ -1,0 +1,41 @@
+.card{
+    border: none;
+    border-radius: 20px;
+text-align: center;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+.carousel{
+    margin-top: 18%;
+}
+button{
+    background-image: linear-gradient(to bottom, #142263 0%,#3b4fac);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    font-weight: 500;
+}
+.category-section{
+    border-radius: 10px;
+
+}
+nav li{
+    padding: 18px;
+
+}
+#navbarNav{
+    margin-left: 230px;
+}
+.title{
+  padding-bottom: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    color: gray;
+    font-size: 23px;
+    padding-top: 8%;
+    padding-bottom: 5%;
+  }
